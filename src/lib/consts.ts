@@ -16,15 +16,9 @@ let activeNode = 'kromer';
 
 export const SYNC_NODES: SyncNode[] = [
 	{
-		id: 'kromer',
-		official: true,
-		name: 'ReconnectedCC Kromer',
-		url: 'https://kromer.reconnected.cc/api/krist/'
-	},
-	{
 		id: 'herrkatze',
-		official: false,
-		name: 'HerrKatze.com',
+		official: true,
+		name: 'Katze Test Node',
 		url: 'https://kromer.herrkatze.com/api/krist/',
 		internalKey: 'dQw4w9WgXcQ'
 	}
